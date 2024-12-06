@@ -1,0 +1,31 @@
+[package]
+name = "editenv"
+version = "1.0.0"
+authors = ["Ye MianCheng"]
+edition = "2021"
+description = "get/set os env value in rust"
+repository = "https://github.com/ymc-github/editenv/"
+license = "MIT"
+keywords = ["converter", "ico", "png"]
+categories = ["command-line-utilities", "filesystem"]
+publish = false
+
+[dependencies]
+# clap = { version = "4.4.13", features = ["cargo", "deprecated"] }
+# png = "0.17.10"
+# ico-builder = "0.1.1"
+# rust-i18n = "3"
+winreg = "0.52"
+# qsv_docopt = "1"
+# serde = { version = "1", features = ["derive"] }
+
+[build-dependencies]
+# embed-resource = "2.4"
+winres = "*"
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+opt-level = 3
+panic = "abort"
+strip = "symbols"
