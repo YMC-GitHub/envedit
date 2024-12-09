@@ -6,7 +6,7 @@ edition = "2021"
 description = "get/set os env value in rust"
 repository = "https://github.com/ymc-github/editenv/"
 license = "MIT"
-keywords = ["converter", "ico", "png"]
+keywords = ["edit", "os", "environment variables"]
 categories = ["command-line-utilities", "filesystem"]
 publish = false
 
