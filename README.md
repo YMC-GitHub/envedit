@@ -20,6 +20,16 @@ envedit set key value
 envedit get key
 ```
 
+_Note_: if you are in china and using [scoop](https://github.com/ScoopInstaller/Scoop) + my [scoop_bucket_cn](https://github.com/ymc-github/scoop_bucket_cn). it may be good for you:
+
+```powershell
+# use my bucket of scoop for China and name it as zero
+scoop bucket add zero https://github.com/ymc-github/scoop_bucket_cn
+
+# install envedit from bucket named zero
+scoop install zero/envedit
+```
+
 ## Examples
 
 set "OLLAMA_MODELS" to "G:\data\LLM":
