@@ -38,7 +38,7 @@ editenv get OLLAMA_MODELS
 
 editenv uses the following libraries:
 
-- [clap](https://crates.io/crates/clap) - Command line argument parsing.
+- ~~[clap](https://crates.io/crates/clap) - Command line argument parsing.~~
 - [winreg](https://crates.io/crates/winreg) - Rust bindings to MS Windows Registry API.
 
 # Build-Dependencies
