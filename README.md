@@ -1,6 +1,6 @@
 # editenv
 
-_get/set os env value in rust._
+_get/set os environment variables in rust._
 
 # Contents
 
