@@ -5,7 +5,7 @@
 name: release
 
 env:
-  APP_NAME: editenv
+  APP_NAME: envedit
 
 # code(core): let this workflow run when tag push and tag like M.m.p
 # code(core): let this workflow run when tag push and tag with any label

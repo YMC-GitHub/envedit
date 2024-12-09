@@ -1,10 +1,10 @@
 [package]
-name = "editenv"
+name = "envedit"
 version = "1.0.0"
 authors = ["Ye MianCheng"]
 edition = "2021"
 description = "get/set os env value in rust"
-repository = "https://github.com/ymc-github/editenv/"
+repository = "https://github.com/ymc-github/envedit/"
 license = "MIT"
 keywords = ["edit", "os", "environment variables"]
 categories = ["command-line-utilities", "filesystem"]
