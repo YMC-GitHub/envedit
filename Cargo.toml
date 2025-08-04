@@ -19,9 +19,12 @@ winreg = "0.52"
 # qsv_docopt = "1"
 # serde = { version = "1", features = ["derive"] }
 
+[target.'cfg(windows)'.build-dependencies]
+winres = "*"
+
 [build-dependencies]
 # embed-resource = "2.4"
-winres = "*"
+# winres = "*"
 
 [profile.release]
 codegen-units = 1
